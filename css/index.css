@@ -1,5 +1,6 @@
 .top {
-  background-image: url("../HPkadaiimg/home_top.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.15)),
+    url("../HPkadaiimg/home_top.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100px 200px;
@@ -28,8 +29,7 @@
   display: inline-block;
 }
 .top-wrap__ttl__inline {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  border-right: 4px solid#fff;
 }
 .top-wrap {
   width: 60%;
@@ -117,7 +117,7 @@
   background-color: #fff;
   width: 180px;
   height: 250px;
-  padding: 2%;
+  padding: 25px;
   border-radius: 25px;
   margin: 1%;
   list-style: none;
@@ -135,8 +135,7 @@
 }
 .bell-icon {
   text-align: center;
-  padding: 20px 0 0 0; /* ✅ 中央寄せ */
-  margin-top: 20px;
+  padding: 60px 0 20px 0;
 }
 
 .bell-icon i {
@@ -164,7 +163,7 @@
   margin: 0 auto;
   justify-content: space-between;
   position: relative;
-  padding: 0 0 40px 0;
+  padding: 40px 0 40px 0;
 }
 .reason-wrap::before {
   content: "";
@@ -181,8 +180,14 @@
 li {
   list-style: none;
 }
+.bell-icon1 {
+  text-align: center;
+}
+.bell-icon1 i {
+  font-size: 53px; /* ✅ 大きさ調整 */
+  color: black; /* 任意：色を青系に */
+}
 .reason-wrap__body {
-  margin-top: 5%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -310,7 +315,7 @@ li {
 }
 .guide-wrap__right__con__card img {
   width: 400px;
-  height: 270px;
+  height: 100%;
   object-fit: cover;
 }
 .guide-wrap__right__con__txt {

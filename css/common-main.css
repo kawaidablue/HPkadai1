@@ -74,6 +74,7 @@ body {
   color: #008fb5;
   text-align: center;
   line-height: 30px;
+  padding-bottom: 10px;
 }
 
 .ttl {
@@ -160,6 +161,9 @@ body {
   text-align: center;
   margin: 20px;
 }
+.footer-wrap__logo img {
+  width: 300px;
+}
 .footer__icon {
   font-size: 28px;
   color: #333;
@@ -188,7 +192,7 @@ body {
 .footer-wrap__con__list {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 60px;
 }
 .footer-copyright {
   background-color: #eaf7f9;
@@ -210,7 +214,7 @@ body {
   margin: 0 auto;
   text-align: center; /* 横方向（左右）中央寄せ */
   vertical-align: middle;
-  font-size: 28px;
+  font-size: 20px;
 }
 .footer-wrap__left__body__cal table {
   width: 90%;
@@ -227,6 +231,7 @@ body {
 }
 .footer-wrap__left__body__cal tr:nth-of-type(1) {
   background-color: #71ccd4;
+  border: solid 1px #008fb5;
 }
 .footer-wrap__left__body__cal table tr:nth-of-type(2),
 .footer-wrap__left__body__cal table tr:nth-of-type(3),
@@ -242,7 +247,7 @@ body {
 .footer-wrap__con__list__item a {
   color: #000;
   text-decoration: unset;
-  font-size: 20px;
+  font-size: 16px;
 }
 .footer-wrap__left__contact__txt {
   color: #008fb5;
@@ -274,6 +279,7 @@ body {
 .footer-wrap__right__txt {
   font-size: 24px;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 .footer-wrap {
   width: 90vw;
