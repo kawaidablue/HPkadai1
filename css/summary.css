@@ -1,0 +1,269 @@
+.top {
+  background-image: url("../HPkadaiimg/\ クリニック概要.png");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+.about-wrap {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  font-weight: bold;
+}
+.about-wrap__body {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+.about-wrap__body__left {
+  width: 50%;
+}
+.about-wrap__body__left__img {
+  width: 100%;
+}
+.about-wrap__body__left__img img {
+  width: 100%;
+  aspect-ratio: 9 / 10;
+  object-fit: cover;
+  border-radius: 0 20px 20px 0;
+}
+.about-wrap__body__right__head {
+  font-size: 36px;
+  color: #008fb5;
+  padding-bottom: 40px;
+}
+.about-wrap__body__right__table th {
+  width: 25%;
+  height: 80px;
+  text-align: center; /* 横方向（左右）中央寄せ */
+  vertical-align: middle;
+  background-color: #eaf7f9;
+  border: 1px solid #000;
+}
+.about-wrap__body__right__table td {
+  margin: 0 auto;
+  text-align: center; /* 横方向（左右）中央寄せ */
+  vertical-align: middle;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+.about-wrap__body__right__table table {
+  width: 100%;
+  font-size: 28px;
+  border: 1px solid #008fb5;
+}
+.about-wrap__body__right {
+  width: 40%;
+}
+.access-wrap {
+  width: 90vw;
+  margin: 40px auto;
+  font-weight: bold;
+  background-color: #eaf7f9;
+  border-radius: 0 100px 0 100px;
+  padding-bottom: 40px;
+}
+.access-wrap__img {
+  width: 100%;
+  padding: 40px 0 40px 0;
+}
+.ttl::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 5px;
+  background-color: #000;
+  right: 47.5%;
+  position: absolute;
+}
+.access-wrap__img img {
+  width: 45%;
+  display: flex;
+  margin: 0 auto;
+  object-fit: cover;
+  aspect-ratio: 5 / 3;
+}
+.access-wrap__map iframe {
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+}
+.access-wrap__body {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 25px;
+}
+.access-wrap__body__block {
+  background-color: #fff;
+  width: 43%;
+  height: 460px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.access-wrap__body__block__ttl {
+  color: #008fb5;
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+.access-wrap__body__block__head {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.access-wrap__body__block__txt {
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+.access-wrap__body__block__list__item {
+  font-size: 20px;
+  padding-bottom: 20px;
+  list-style: inside;
+  text-indent: -1.4em; /* 最初の行だけ左に戻す */
+  padding-left: 1.2em;
+}
+.intro-wrap {
+  width: 90vw;
+  margin: 40px auto;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.intro-wrap__body__head {
+  text-align: center;
+  padding: 40px 0 40px 0;
+  color: #008fb5;
+  font-size: 38px;
+}
+.intro-wrap__body__block1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+.intro-wrap__body__block__left {
+  width: 50%;
+}
+.about-wrap__body__block__table th {
+  width: 30%;
+  height: 55px;
+  text-align: center; /* 横方向（左右）中央寄せ */
+  vertical-align: middle;
+  background-color: #eaf7f9;
+}
+.about-wrap__body__block__table td {
+  margin: 0 auto;
+  text-align: left; /* 横方向（左右）中央寄せ */
+  vertical-align: middle;
+  background-color: #fff;
+  padding: 10px;
+}
+.intro-wrap__body__block__name {
+  font-size: 28px;
+  color: #008fb5;
+  padding-bottom: 20px;
+}
+.about-wrap__body__block__table table {
+  width: 100%;
+  font-size: 20px;
+}
+.intro-wrap__body__block__right {
+  width: 50%;
+}
+.intro-wrap__body__block__right img {
+  width: 100%;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: flex-start;
+}
+.intro-wrap__body__block {
+  width: 47%;
+}
+.fa-wrap {
+  width: 90vw;
+  margin: 40px auto;
+  font-weight: bold;
+  background-color: #eaf7f9;
+  border-radius: 0 100px 0 100px;
+  padding-bottom: 40px;
+}
+.fa {
+  display: block;
+  width: 100%;
+}
+
+.fa-wrap__ttl {
+  text-align: center;
+  font-size: 48px;
+  padding: 40px 0 40px 0;
+  color: #008fb5;
+}
+.fa-wrap__ttl h2 {
+  padding-bottom: 20px;
+}
+.fa-wrap__ttl::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 5px;
+  background-color: #000;
+  right: 47.5%;
+  position: absolute;
+}
+.fa-wrap__block1 {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 40px;
+  justify-content: center;
+}
+.fa-wrap__block1__left {
+  width: 47%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.fa-wrap__block1__left__head {
+  font-size: 28px;
+  color: #008fb5;
+  padding: 40px;
+}
+.fa-wrap__block1__left__list__item {
+  font-size: 18px;
+  padding: 10px;
+  list-style: inside;
+  text-indent: -1.4em; /* 最初の行だけ左に戻す */
+  padding-left: 1.2em;
+  padding: 0 0 20px 40px;
+}
+.fa-wrap__block1__right {
+  width: 47%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.fa-wrap__block2__ttl {
+  text-align: center;
+  padding: 40px 0 40px 0;
+  font-size: 36px;
+  color: #008fb5;
+}
+.fa-wrap__block2__body {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.fa-wrap__block2__body__head {
+  color: #008fb5;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.fa-wrap__block2__body__txt {
+  padding-bottom: 20px;
+}

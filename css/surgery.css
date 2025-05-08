@@ -1,0 +1,375 @@
+.top {
+  background-image: url("../HPkadaiimg/手術についてtop.png");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+.guide {
+  background-color: #fff;
+}
+.guide-wrap {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.guide-wrap__body {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 1280px;
+}
+.guide-wrap__body__item {
+  width: 25%;
+  font-size: 1.2em;
+  background-color: #008fb5;
+  color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 999px;
+}
+.guide-wrap__body__item a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+.ttl::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 5px;
+  background-color: #000;
+  right: 47.5%;
+  position: absolute;
+}
+.guide-wrap__body__item a .arrow {
+  position: absolute;
+  right: 10px; /* 左端に近づける。調整可能 */
+  top: 50%;
+  transform: translateY(-50%);
+}
+.about-wrap {
+  margin-top: 60px;
+}
+.about-wrap__left {
+  display: flex;
+  align-items: flex-start; /* 上揃え */
+  flex-wrap: wrap; /* スマホ時の折り返し用 */
+  gap: 60px;
+}
+
+.about-wrap__left__img {
+  width: 52%;
+}
+
+.about-wrap__left__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0 20px 20px 0;
+}
+.about-wrap__right {
+  width: 42%;
+  margin-left: 0;
+}
+.about-wrap__right__head {
+  font-size: 36px;
+  color: #008fb5;
+  font-weight: bold;
+  padding: 40px 0 40px 0;
+}
+.about-wrap__right__txt {
+  font-size: 20px;
+}
+.ac-wrap {
+  width: 90vw;
+  margin: 0 auto;
+  background-color: #eaf7f9;
+  border-radius: 0 100px 0 100px;
+  padding-bottom: 60px;
+}
+.ac-wrap__body {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.surgery__table__head {
+  text-align: left;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.ac-wrap__body__left {
+  width: 40%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+}
+.surgery__table th {
+  width: 200px;
+  height: 60px;
+  text-align: center; /* 横方向（左右）中央寄せ */
+  vertical-align: middle;
+  background-color: #71ccd4;
+  border: 1px solid #000;
+}
+.surgery__table td {
+  margin: 0 auto;
+  text-align: center; /* 横方向（左右）中央寄せ */
+  vertical-align: middle;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+.surgery__table table {
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid #008fb5;
+}
+.ac-wrap__body__right {
+  width: 43%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+  display: flex;
+  align-items: center;
+}
+.ac-wrap__body__right__img {
+  width: 100%;
+}
+.ac-wrap__body__right__img img {
+  width: 100%;
+  height: 784px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.surgery1-wrap {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+}
+.surgery__ttl {
+  font-size: 40px;
+  color: #008fb5;
+  text-align: center;
+}
+.surgery1-wrap__body {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.surgery1-wrap__body__right {
+  width: 40%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+}
+.surgery1-wrap__body__left {
+  width: 43%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+  display: flex;
+  align-items: center;
+}
+.surgery1-wrap__body__left__img {
+  width: 100%;
+}
+.surgery1-wrap__body__left__img img {
+  width: 100%;
+  height: 784px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.surgery__table th {
+  width: 200px;
+  height: 60px;
+  text-align: center; /* 横方向（左右）中央寄せ */
+  vertical-align: middle;
+  background-color: #71ccd4;
+  border: 1px solid #000;
+}
+.surgery__table td {
+  margin: 0 auto;
+  text-align: center; /* 横方向（左右）中央寄せ */
+  vertical-align: middle;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+.surgery__table table {
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid #008fb5;
+}
+.surgery2-wrap {
+  width: 90vw;
+  margin: 0 auto;
+  background-color: #eaf7f9;
+  border-radius: 0 100px 0 100px;
+  padding: 40px 0 40px 0;
+}
+.surgery2-wrap__body {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.surgery2-wrap__body__right {
+  width: 40%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+}
+.surgery2-wrap__body__left {
+  width: 40%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+  display: flex;
+  align-items: center;
+}
+.surgery2-wrap__body__left__img {
+  width: 100%;
+}
+.surgery2-wrap__body__left__img img {
+  width: 100%;
+  height: 784px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.surgery2-wrap__txt {
+  width: 60%;
+  display: flex;
+  justify-content: center; /* 水平方向中央揃え */
+  align-items: center; /* 垂直方向中央揃え */
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 40px 0 40px 0;
+  font-weight: bold;
+}
+.surgery3-wrap {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+}
+.surgery3-wrap__body {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.surgery3-wrap__body__left {
+  width: 40%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+}
+.surgery3-wrap__body__right {
+  width: 44%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+  display: flex;
+  align-items: center;
+}
+.surgery3-wrap__body__right__img {
+  width: 100%;
+}
+.surgery3-wrap__body__right__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.surgery4-wrap {
+  width: 90vw;
+  margin: 0 auto;
+  background-color: #eaf7f9;
+  border-radius: 0 100px 0 100px;
+  padding: 40px 0 40px 0;
+}
+.surgery4-wrap__body {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.surgery4-wrap__body__right {
+  width: 40%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+}
+.surgery4-wrap__body__left {
+  width: 40%;
+  padding: 2%;
+  margin: 40px 0 0 40px;
+  display: flex;
+  align-items: center;
+}
+.surgery4-wrap__body__left__img {
+  width: 100%;
+}
+.surgery4-wrap__body__left__img img {
+  width: 100%;
+  height: 784px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.surgery4-wrap__txt {
+  width: 60%;
+  display: flex;
+  justify-content: center; /* 水平方向中央揃え */
+  align-items: center; /* 垂直方向中央揃え */
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 40px 0 40px 0;
+  font-weight: bold;
+}
+.ad-wrap {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+}
+.ad-wrap__body {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 20px;
+}
+.ad-wrap__body__right {
+  width: 50%;
+  padding: 40px 0 40px 0;
+}
+.ad-wrap__body__right__head {
+  font-size: 36px;
+  color: #008fb5;
+  padding: 0 0 40px 40px;
+}
+.ad-wrap__body__left {
+  width: 44%;
+  display: flex;
+  align-items: center;
+  margin: 40px 0 0 40px;
+}
+.ad-wrap__body__right__txt {
+  font-size: 20px;
+  padding: 0 0 40px 40px;
+}
+.ad-wrap__body__left__img {
+  width: 100%;
+}
+.ad-wrap__body__left__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.ad-wrap__body__right__list {
+  padding: 0 0 40px 40px;
+  font-size: 20px;
+}
+.ad-wrap__body__right__list__item {
+  list-style: inside;
+  text-indent: -1.4em; /* 最初の行だけ左に戻す */
+  padding-left: 1.2em;
+}

@@ -1,0 +1,31 @@
+.top {
+  background-image: url("../HPkadaiimg/お知らせのコピー.png");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+.news-wrap {
+  margin: 60px auto;
+  width: 80vw;
+  padding-bottom: 40px;
+}
+.news-wrap__body__list__item {
+  display: flex;
+  margin-left: 10%;
+  list-style: none;
+  border-bottom: dashed 1px #ccc;
+  margin-bottom: 1.5%;
+  padding-bottom: 1.5%;
+}
+.news-wrap__body__list__item span {
+  background-color: #008fb5;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0 20px;
+  margin: 0 20px;
+}
+.news__txt {
+  text-align: left;
+  width: 50%;
+}
