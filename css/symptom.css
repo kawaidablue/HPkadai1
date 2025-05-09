@@ -5,6 +5,9 @@
   position: relative;
   z-index: 0;
 }
+.top {
+  padding-top: 13vh;
+}
 .about-wrap {
   width: 90vw;
   margin: 0 auto;
@@ -24,6 +27,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  padding-bottom: 60px;
 }
 .ttl::after {
   content: "";
@@ -38,6 +42,12 @@
   text-align: center;
   font-size: 48px;
 }
+.ttl h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 40px;
+}
+
 .symptom-wrap__ttl {
   text-align: center;
   font-size: 48px;
@@ -108,7 +118,6 @@
 .bell-icon {
   text-align: center;
   padding: 20px 0 0 0; /* ✅ 中央寄せ */
-  margin-top: 20px;
 }
 
 .bell-icon i {

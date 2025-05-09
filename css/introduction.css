@@ -11,6 +11,16 @@
   padding: 40px 0 0 0;
   font-weight: bold;
 }
+.ttl h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0 0 0;
+  padding: 40px;
+}
+
+.top {
+  padding-top: 13vh;
+}
 .ttl::after {
   content: "";
   display: block;

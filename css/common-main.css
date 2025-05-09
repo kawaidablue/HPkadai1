@@ -210,6 +210,7 @@ body {
   height: 60px;
   text-align: center; /* 横方向（左右）中央寄せ */
   vertical-align: middle;
+  font-size: 16px;
 }
 .footer-wrap__left__body__cal td {
   margin: 0 auto;

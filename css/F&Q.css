@@ -5,11 +5,21 @@
   position: relative;
   z-index: 0;
 }
+.top {
+  padding-top: 13vh;
+}
 .faq-wrap__body {
   display: flex;
   justify-content: space-between;
   margin-top: 3.5%;
 }
+.ttl h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0 0 0;
+  padding: 40px;
+}
+
 .faq-wrap__body__list {
   width: 80%;
   margin: 0 auto;
