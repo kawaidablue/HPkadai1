@@ -1,23 +1,23 @@
 .top {
-  background-image: url("../HPkadaiimg/\ クリニック概要.png");
+  background-image: url("../HPkadaiimg/入院される方top.png");
   background-size: cover;
   background-position: 50%;
   position: relative;
   z-index: 0;
 }
+.__inner {
+  max-width: 1280px;
+}
 .f1-wrap {
   width: 95vw;
   margin: 0 auto;
-  padding: 40px 0 0 0;
   font-weight: bold;
 }
 .ttl h2 {
   font-size: 3rem;
   text-align: center;
-  margin: 40px 0 0 0;
   padding: 40px;
 }
-
 .top {
   padding-top: 13vh;
 }
@@ -59,7 +59,7 @@
   padding-bottom: 20px;
 }
 .f1-wrap__body__block1__right__txt {
-  font-size: 20px;
+  font-size: 16px;
   padding-bottom: 40px;
 }
 .f1-wrap__body__block1__right__btn {
@@ -113,7 +113,7 @@
   padding-bottom: 20px;
 }
 .f1-wrap__body__block2__left__txt {
-  font-size: 20px;
+  font-size: 16px;
   padding-bottom: 40px;
 }
 .f1-wrap__body__block__left {
@@ -155,6 +155,7 @@
 }
 .f1-wrap__body__block7__content__txt {
   padding-bottom: 40px;
+  font-weight: bold;
 }
 .f1-wrap__body__block7__content__list__item {
   list-style: inside;
@@ -162,7 +163,10 @@
   color: #008fb5;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
+}
+.f1-wrap__body__block7__content__list p {
+  font-weight: 100;
 }
 .f1-wrap__body__block7__content__list {
   padding-bottom: 30px;
@@ -185,7 +189,6 @@ p {
 .f2-wrap {
   width: 95vw;
   margin: 0 auto;
-  font-weight: bold;
   background-color: #eaf7f9;
   border-radius: 0 100px 0 100px;
 }

@@ -3,14 +3,15 @@
     url("../HPkadaiimg/home_top.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100px 200px;
+  background-position: 100px 100px;
   position: relative;
   z-index: 0;
   margin-bottom: 40px;
+  object-fit: contain;
 }
 .top-wrap {
   width: 85%;
-  height: 120vh;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

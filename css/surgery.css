@@ -1,9 +1,10 @@
 .top {
   background-image: url("../HPkadaiimg/手術についてtop.png");
-  background-size: cover;
+  background-size: 100% auto;
   background-position: 50%;
   position: relative;
   z-index: 0;
+  image-rendering: auto;
 }
 .top {
   padding-top: 13vh;
@@ -51,7 +52,7 @@
   width: 80px;
   height: 5px;
   background-color: #000;
-  right: 47.5%;
+  right: 47%;
   position: absolute;
 }
 .guide-wrap__body__item a .arrow {
@@ -81,7 +82,7 @@
   border-radius: 0 20px 20px 0;
 }
 .about-wrap__right {
-  width: 42%;
+  width: 40%;
   margin-left: 0;
 }
 .about-wrap__right__head {
@@ -91,7 +92,7 @@
   padding: 40px 0 40px 0;
 }
 .about-wrap__right__txt {
-  font-size: 20px;
+  font-size: 18px;
 }
 .ac-wrap {
   width: 90vw;
@@ -252,9 +253,8 @@
   justify-content: center; /* 水平方向中央揃え */
   align-items: center; /* 垂直方向中央揃え */
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 18px;
   padding: 40px 0 40px 0;
-  font-weight: bold;
 }
 .surgery3-wrap {
   width: 90vw;
@@ -330,9 +330,8 @@
   justify-content: center; /* 水平方向中央揃え */
   align-items: center; /* 垂直方向中央揃え */
   margin: 0 auto;
-  font-size: 20px;
-  padding: 40px 0 40px 0;
-  font-weight: bold;
+  font-size: 18px;
+  padding: 40px 0 20px 0;
 }
 .ad-wrap {
   width: 90vw;
