@@ -136,6 +136,7 @@
   text-indent: -1.4em; /* 最初の行だけ左に戻す */
   padding-left: 1.2em;
   font-size: 20px;
+  font-weight: 100;
 }
 .f1-wrap__body__block7 {
   background-color: #eaf7f9;

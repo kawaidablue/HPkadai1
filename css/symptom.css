@@ -15,6 +15,7 @@
   font-weight: bold;
 }
 .about-wrap__body {
+  font-weight: 100;
   width: 80vw;
   margin: 0 auto;
   background-color: #fff;
@@ -63,7 +64,7 @@
   background-color: #fff;
   width: 13%;
   height: 250px;
-  padding: 2%;
+  padding: 25px;
   border-radius: 25px;
   margin: 1%;
   list-style: none;
@@ -95,15 +96,6 @@
   height: 100%;
   margin-top: 3%;
 }
-.symptom-wrap__list__item {
-  background-color: #fff;
-  width: 180px;
-  height: 250px;
-  padding: 2%;
-  border-radius: 25px;
-  margin: 1%;
-  list-style: none;
-}
 .symptom-wrap__list__item a {
   text-decoration: none;
   cursor: pointer;
@@ -117,7 +109,7 @@
 }
 .bell-icon {
   text-align: center;
-  padding: 20px 0 0 0; /* ✅ 中央寄せ */
+  padding: 60px 0 20px 0;
 }
 
 .bell-icon i {

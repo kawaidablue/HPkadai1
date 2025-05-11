@@ -3,14 +3,14 @@
     url("../HPkadaiimg/home_top.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100px 100px;
+  background-position: 160px 100px;
   position: relative;
   z-index: 0;
   margin-bottom: 40px;
   object-fit: contain;
 }
 .top-wrap {
-  width: 85%;
+  width: 80%;
   height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -20,14 +20,16 @@
   color: #fff;
 }
 .top-wrap__ttl h1 {
-  font-size: 3.7rem;
+  font-size: 3.5rem;
   line-height: 1.7;
   writing-mode: vertical-rl;
-  margin-top: 160%;
+  margin-top: 120%;
   -ms-writing-mode: tb-rl;
-  text-indent: -1.2em;
+  text-indent: -1.3em;
   position: relative;
   display: inline-block;
+  white-space: nowrap;
+  margin-left: 60px;
 }
 .top-wrap__ttl__inline {
   border-right: 4px solid#fff;
@@ -122,6 +124,8 @@
 .symptom-wrap__list__item a {
   text-decoration: none;
   cursor: pointer;
+  width: 100%;
+  height: 250px;
 }
 .symptom-wrap__list__item__img {
   width: 100%;
